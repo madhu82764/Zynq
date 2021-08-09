@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Aug  6 16:03:47 2021
+# Process ID: 14508
+# Current directory: H:/train/zynq_trial
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5940 H:\train\zynq_trial\zynq_trial.xpr
+# Log file: H:/train/zynq_trial/vivado.log
+# Journal file: H:/train/zynq_trial\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only H:/train/zynq_trial/zynq_trial.xpr
+update_compile_order -fileset sources_1

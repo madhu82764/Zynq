@@ -1,0 +1,21 @@
+12:10:32 **** Build of configuration Debug for project enet ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 Linux gcc compiler'
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: enet.elf'
+'Invoking: ARM v7 Linux gcc linker'
+arm-linux-gnueabihf-gcc  -o "enet.elf"  ./src/helloworld.o   
+'Finished building target: enet.elf'
+' '
+'Invoking: ARM v7 Linux Print Size'
+arm-linux-gnueabihf-size enet.elf  |tee "enet.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+    848	    280	      4	   1132	    46c	enet.elf
+'Finished building: enet.elf.size'
+' '
+
+12:10:34 Build Finished (took 2s.162ms)
+
